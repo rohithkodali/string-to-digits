@@ -1,4 +1,4 @@
-String.prototype.textToDigits = function(){
+String.prototype.convertToDigits = function(){
 	var words = this.toLowerCase().split(' '),
 		placeCount = 0,
 		digits = 0,
@@ -35,9 +35,9 @@ String.prototype.textToDigits = function(){
 	return digits;
 }
 
-console.log('asdfasdfas'.textToDigits() == 'No numbers found!' ? 'Pass' : 'Fail');
-console.log('zero one'.textToDigits() == 1 ? 'Pass' : 'Fail');
-console.log('fourty'.textToDigits() == 40 ? 'Pass' : 'Fail');
-console.log('negative one hundred and nineteen'.textToDigits() == -119 ? 'Pass' : 'Fail');
-console.log('negative one hundred billion one'.textToDigits() == -100000000001 ? 'Pass' : 'Fail');
-console.log('negative three hundred twenty two billion two hundred ninety nine million one hundred twenty nine thousand one hundred twenty three'.textToDigits() == -322299129123 ? 'Pass' : 'Fail');
+console.log('asdfasdfas'.convertToDigits() == 'No numbers found!' ? 'Pass' : 'Fail');
+console.log('zero one'.convertToDigits() == 1 ? 'Pass' : 'Fail');
+console.log('fourty'.convertToDigits() == 40 ? 'Pass' : 'Fail');
+console.log('negative one hundred and nineteen'.convertToDigits() == -119 ? 'Pass' : 'Fail');
+console.log('negative one hundred billion one'.convertToDigits() == -100000000001 ? 'Pass' : 'Fail');
+console.log('negative three hundred twenty two billion two hundred ninety nine million one hundred twenty nine thousand one hundred twenty three'.convertToDigits() == -322299129123 ? 'Pass' : 'Fail');

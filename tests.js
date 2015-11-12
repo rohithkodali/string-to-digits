@@ -1,4 +1,3 @@
-
 console.log('asdfasdfas'.convertToDigits() == 'No numbers found!' ? 'Pass' : 'Fail');
 console.log('zero one'.convertToDigits() == 1 ? 'Pass' : 'Fail');
 console.log('fourty'.convertToDigits() == 40 ? 'Pass' : 'Fail');

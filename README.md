@@ -10,7 +10,7 @@ var converted = myNum.convertToDigits();
 console.log(converted); // Returns 40
 
 var myLargeNum = 'negative three hundred twenty two billion two hundred ninety nine million one hundred twenty nine thousand one hundred twenty three';
-converted = myLargeNum.convertToDigits();
+var converted = myLargeNum.convertToDigits();
 console.log(converted); // Returns -322299129123
 ```
 

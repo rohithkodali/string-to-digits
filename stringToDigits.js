@@ -27,7 +27,7 @@ String.prototype.convertToDigits = function(){
 		noNumber = ones > -1 || tens > -1 || words[i] == 'hundred' || large > -1 ? false : true;
 	}
 	if(noNumber)
-		return 'No numbers found!';
+		return false;
 	if(placeCount > 0 && placeCount < 1000)
 		digits += placeCount;
 	if(negative)

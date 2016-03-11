@@ -6,7 +6,7 @@ String.prototype.convertToDigits = function(){
 		negative = words[0] == 'negative' ? true : false,
 		numberNames = {
     		ones: ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'],
-    		tens: ['twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'],
+    		tens: ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'],
     		large: ['thousand', 'million', 'billion', 'trillion', 'quadrillion'] // Number.MAX_VALUE is around 9 quadrillion
 		};
 	for(var i = 0; i < words.length; i++) {

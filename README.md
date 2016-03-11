@@ -1,4 +1,4 @@
-# Text to Digits
+# String to Digits
 A JavaScript string prototype function that can convert number names to their corresponding digits.
 
 This function will take a standard written English number name and return the number's digits. It will ignore any words that it cannot parse as numbers, so it is able to deal with cases like the word 'and' appearing in numbers.

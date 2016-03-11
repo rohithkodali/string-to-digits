@@ -6,10 +6,12 @@ This function will take a standard written English number name and return the ap
 ### Basic Usage
 ```javascript
 var myNum = 'Fourty';
-myNum.convertToDigits(); // Returns 40
+var converted = myNum.convertToDigits(); 
+console.log(converted); // Returns 40
 
 var myLargeNum = 'negative three hundred twenty two billion two hundred ninety nine million one hundred twenty nine thousand one hundred twenty three';
-myLargeNum.convertToDigits(); // Returns -322299129123
+converted = myLargeNum.convertToDigits();
+console.log(converted); // Returns -322299129123
 ```
 
 
